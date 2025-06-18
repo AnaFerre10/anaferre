@@ -1,0 +1,33 @@
+/* Container do texto */
+.text-container {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Ajustes específicos para cada elemento de texto */
+.front-text .text-container {
+  top: 60%; /* Ajuste esta porcentagem para mover verticalmente */
+}
+
+.inside-text .text-container {
+  top: 40%; /* Ajuste esta porcentagem para mover verticalmente */
+}
+
+.happy, .toyou {
+  display: block;
+  margin: 30px auto;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.bday {
+  display: block;
+  margin: 20px auto;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
